@@ -1,0 +1,3 @@
+/dist/*.js
+../vendor/*/*.*
+../vendor/ie-fix/html5shiv.min.js

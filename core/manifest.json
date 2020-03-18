@@ -1,0 +1,131 @@
+{
+  "name": "dll",
+  "content": {
+    "../node_modules/jquery/dist/jquery.js-exposed": {
+      "id": 0,
+      "buildMeta": {
+        "providedExports": true
+      }
+    },
+    "../node_modules/webpack/buildin/global.js": {
+      "id": 1,
+      "buildMeta": {
+        "providedExports": true
+      }
+    },
+    "../node_modules/expose-loader/index.js?jQuery!../node_modules/jquery/dist/jquery.js-exposed": {
+      "id": 3,
+      "buildMeta": {
+        "providedExports": true
+      }
+    },
+    "../node_modules/jquery/dist/jquery.js": {
+      "id": 4,
+      "buildMeta": {
+        "providedExports": true
+      }
+    },
+    "../node_modules/bootstrap-webpack/index.loader.js!./config/bootstrap.config.js": {
+      "id": 5,
+      "buildMeta": {
+        "providedExports": true
+      }
+    },
+    "../node_modules/mini-css-extract-plugin/dist/loader.js!../node_modules/css-loader/dist/cjs.js!../node_modules/less-loader/dist/cjs.js!../node_modules/bootstrap-webpack/bootstrap-styles.loader.js!./config/bootstrap.config.js": {
+      "id": 6,
+      "buildMeta": {
+        "providedExports": true
+      }
+    },
+    "../node_modules/bootstrap-webpack/bootstrap-scripts.loader.js!./config/bootstrap.config.js": {
+      "id": 7,
+      "buildMeta": {
+        "providedExports": true
+      }
+    },
+    "../node_modules/imports-loader/index.js?jQuery=jquery!../node_modules/bootstrap/js/transition.js": {
+      "id": 8,
+      "buildMeta": {
+        "providedExports": true
+      }
+    },
+    "../node_modules/imports-loader/index.js?jQuery=jquery!../node_modules/bootstrap/js/alert.js": {
+      "id": 9,
+      "buildMeta": {
+        "providedExports": true
+      }
+    },
+    "../node_modules/imports-loader/index.js?jQuery=jquery!../node_modules/bootstrap/js/button.js": {
+      "id": 10,
+      "buildMeta": {
+        "providedExports": true
+      }
+    },
+    "../node_modules/imports-loader/index.js?jQuery=jquery!../node_modules/bootstrap/js/carousel.js": {
+      "id": 11,
+      "buildMeta": {
+        "providedExports": true
+      }
+    },
+    "../node_modules/imports-loader/index.js?jQuery=jquery!../node_modules/bootstrap/js/collapse.js": {
+      "id": 12,
+      "buildMeta": {
+        "providedExports": true
+      }
+    },
+    "../node_modules/imports-loader/index.js?jQuery=jquery!../node_modules/bootstrap/js/dropdown.js": {
+      "id": 13,
+      "buildMeta": {
+        "providedExports": true
+      }
+    },
+    "../node_modules/imports-loader/index.js?jQuery=jquery!../node_modules/bootstrap/js/modal.js": {
+      "id": 14,
+      "buildMeta": {
+        "providedExports": true
+      }
+    },
+    "../node_modules/imports-loader/index.js?jQuery=jquery!../node_modules/bootstrap/js/tooltip.js": {
+      "id": 15,
+      "buildMeta": {
+        "providedExports": true
+      }
+    },
+    "../node_modules/imports-loader/index.js?jQuery=jquery!../node_modules/bootstrap/js/popover.js": {
+      "id": 16,
+      "buildMeta": {
+        "providedExports": true
+      }
+    },
+    "../node_modules/imports-loader/index.js?jQuery=jquery!../node_modules/bootstrap/js/scrollspy.js": {
+      "id": 17,
+      "buildMeta": {
+        "providedExports": true
+      }
+    },
+    "../node_modules/imports-loader/index.js?jQuery=jquery!../node_modules/bootstrap/js/tab.js": {
+      "id": 18,
+      "buildMeta": {
+        "providedExports": true
+      }
+    },
+    "../node_modules/imports-loader/index.js?jQuery=jquery!../node_modules/bootstrap/js/affix.js": {
+      "id": 19,
+      "buildMeta": {
+        "providedExports": true
+      }
+    },
+    "../vendor/metisMenu/metisMenu.min.js": {
+      "id": 20,
+      "buildMeta": {
+        "providedExports": true
+      }
+    },
+    "../vendor/metisMenu/metisMenu.min.css": {
+      "id": 21,
+      "buildMeta": {
+        "providedExports": true
+      }
+    }
+  }
+}

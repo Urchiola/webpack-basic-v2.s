@@ -1,0 +1,17 @@
+{
+  "name": "core",
+  "version": "1.0.0",
+  "sideEffects": [
+    "*.css",
+    "*.scss",
+    "*.sass",
+    "*.less"
+  ],
+  "description": "",
+  "main": "_webpack.dev.config.js",
+  "scripts": {
+    "dll": "webpack --progress --colors --config ./webpack-dll.config.js"
+  },
+  "author": "",
+  "license": "ISC"
+}

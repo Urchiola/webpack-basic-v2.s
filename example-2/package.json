@@ -1,0 +1,17 @@
+{
+  "name": "example-2",
+  "version": "2.0.0",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "start": " cross-env NODE_ENV=development webpack-dev-server --inline --progress --hot --open --compress --content-base dist/ --port 1212  --config  ./webpack.dev.config.js  ",
+    "dev": "node npm-scripts/build.script.js && cross-env NODE_ENV=development webpack --progress --colors --config  ./webpack.dev.config.js   ",
+    "build": "node npm-scripts/build.script.js && cross-env NODE_ENV=production   webpack --progress --colors --config ./webpack.pro.config.js ",
+    "dll": "",
+    "lint": "eslint --ext .js --ext .vue pages/",
+    "lint-fix": "eslint --fix --ext .js --ext .jsx --ext .vue pages/"
+  },
+  "author": "ANDYKIM",
+  "license": "ISC",
+  "devDependencies": {}
+}
