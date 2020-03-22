@@ -27,7 +27,7 @@
 
 6. manifast.json, setffacts ?
 
-7.  purifycss-webpack  // 清除未使用的 css样式 ? √  
+7.  purifycss-webpack  // 清除未使用的 css样式 ? √  由于未更新暂不适用改插件
 
 7. 融合vue ?
 
